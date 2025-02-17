@@ -1,0 +1,34 @@
+﻿<h3>Calculadora</h3>
+
+@page "/Calculadora"
+
+
+<div class="container">
+
+<div class="in">
+    <input type="number" placeholder="0" @bind-value="num" />
+    <input type="number" placeholder="0" @bind-value="num2" />
+   
+</div>
+<div class="of">
+
+    <div class="v">
+
+            <input type="text" placeholder="Resultado" value=@resultado readonly />
+
+    </div>
+
+    <div>
+            <button @onclick="() => suma()"> +</button>
+            <button @onclick="() => resta()">-</button>
+            <button @onclick="() => multiplicacion()">*</button>
+            <button @onclick="() => division()">/</button>
+    </div>
+</div>
+</div>
+       
+
+    
+
+
+    

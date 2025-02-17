@@ -1,0 +1,11 @@
+﻿<h3>KmCalculador</h3>
+
+@page "/kmCalculador"
+
+<p>Introduce los kilometros recorridos</p>
+
+<input type="number" placeholder="0" @bind="km" />
+<button @onclick="() => calculateLitros()">Calcular</button>
+
+<p>En @km km de distancia has consumido @litros L</p>
+<p>Que te han costado un total de @precio €</p>

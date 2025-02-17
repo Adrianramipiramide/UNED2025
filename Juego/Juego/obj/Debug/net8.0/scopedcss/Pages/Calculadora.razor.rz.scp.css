@@ -1,0 +1,35 @@
+body[b-mfaizl9z0l] {
+    margin:0;
+  
+}
+
+button[b-mfaizl9z0l] {
+    border-color: coral;
+    background-color: white;
+}
+
+.container[b-mfaizl9z0l]{
+    
+      displex: flex;
+    flex-direction:column;
+}
+
+.in[b-mfaizl9z0l]{
+    background-color:lightblue;
+    padding:10%
+}
+.of[b-mfaizl9z0l]{
+    background-color: lightgreen;
+    padding:10%
+}
+input[b-mfaizl9z0l]{
+    height:auto;
+    width 200px;
+    border : solid black 3px;
+}
+
+.v[b-mfaizl9z0l]{
+    margin-bottom: 5%;
+
+
+}

@@ -1,0 +1,23 @@
+﻿body {
+    margin:0;
+}
+
+.v{
+    padding-top : 2%;
+    padding-bottom:5%;
+
+}
+
+.cont{
+   
+    background-color:lightsteelblue;
+    padding:2%
+
+}
+
+.k{
+ display: flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items:center;
+}

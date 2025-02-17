@@ -1,0 +1,35 @@
+﻿body {
+    margin:0;
+  
+}
+
+button {
+    border-color: coral;
+    background-color: white;
+}
+
+.container{
+    
+      displex: flex;
+    flex-direction:column;
+}
+
+.in{
+    background-color:lightblue;
+    padding:10%
+}
+.of{
+    background-color: lightgreen;
+    padding:10%
+}
+input{
+    height:auto;
+    width 200px;
+    border : solid black 3px;
+}
+
+.v{
+    margin-bottom: 5%;
+
+
+}

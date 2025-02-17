@@ -1,0 +1,23 @@
+﻿<h3>Max-Min</h3>
+
+@page "/Game"
+
+<input type="number" placeholder="0" @bind-value= "numeroIntroducido"/>
+
+<button @onclick="() => getNumero()" >Prueba</button>
+
+<p>El numero es @max</p>
+
+
+
+<div>
+    <p>___________________________________@numeroIncognito</p>
+    <p>--------------------------------------@numeroIntroducido</p>
+
+
+    @if (max == "felicidades, has ganado")
+    {//la imagen no se muestra
+        <img src="images/trophy.jpg" alt="trofeo" />
+    }
+
+</div>

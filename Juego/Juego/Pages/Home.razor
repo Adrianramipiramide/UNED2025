@@ -1,0 +1,17 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>PIEDRA PAPEL O TIJERA</h1>
+
+<button @onclick="() => {ataque(piedra);}">Piedra</button>
+<button @onclick="() => {ataque(papel);}">Papel</button>
+<button @onclick="() => {ataque(tijera);}">Tijera</button>
+
+<p>Usuario: @usuarioJ</p>
+<p>Ordenador: @ordenadorJ</p>
+<p>Resultado: @resultado</p>
+
+<p>El numero de victorias es  @numVictorias</p>
+
+<p>El numero de derrotas es  @numDerrotas</p>

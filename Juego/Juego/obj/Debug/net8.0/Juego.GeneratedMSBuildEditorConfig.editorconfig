@@ -1,0 +1,63 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Juego
+build_property.RootNamespace = Juego
+build_property.ProjectDir = C:\Users\arami\Desktop\Juego\Juego\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\arami\Desktop\Juego\Juego
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/arami/Desktop/Juego/Juego/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/arami/Desktop/Juego/Juego/Pages/KmCalculador.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS21DYWxjdWxhZG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/arami/Desktop/Juego/Juego/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/arami/Desktop/Juego/Juego/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rhikgctt1k
+
+[C:/Users/arami/Desktop/Juego/Juego/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4sw4aicf55
+
+[C:/Users/arami/Desktop/Juego/Juego/Pages/Calculadora.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsY3VsYWRvcmEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mfaizl9z0l
+
+[C:/Users/arami/Desktop/Juego/Juego/Pages/Game.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-x0zlsfuis4
+
+[C:/Users/arami/Desktop/Juego/Juego/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-tmzsoq65et
+
+[C:/Users/arami/Desktop/Juego/Juego/Pages/JAhorcado.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSkFob3JjYWRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-fvsuhtdupe
+
+[C:/Users/arami/Desktop/Juego/Juego/Pages/Tablero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-kspnejmf8h

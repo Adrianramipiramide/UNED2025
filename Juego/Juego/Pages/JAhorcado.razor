@@ -1,0 +1,38 @@
+﻿
+<h3>Ahorcado</h3>
+
+@page "/ahorcado"
+
+<div>
+    <div>
+        <p>Introduce una palabra para adivinar</p>
+        <input type="text" placeholder="Palabra" @bind="palabra" />
+      
+
+    </div>
+    <div>
+        
+        <input type="text" placeholder="a" @bind="letra" />
+        <button @onclick="() => comprobarLetra()" type="submit">Enviar</button>
+
+    </div>
+    <p>La letra @letra @esta   </p>
+
+    @foreach (var letra in letrasImprimir)
+    {
+        <span>@letra</span>
+    }
+
+    <p>Llevas @fallos fallos</p>
+    <p>Letras acertadas:</p>
+    @foreach (var letra in letrass)
+    { 
+        
+        <p> @letra</p>
+      
+    }
+
+    <p>@victoria</p>
+   
+
+</div>

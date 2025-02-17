@@ -1,0 +1,31 @@
+﻿<h3>Tablero</h3>
+
+@page "/tablero"
+
+<p>________________</p>
+
+<div class="cont">
+    <div>
+        <div>
+            <button @onclick="() => generateTablero()">Generar Numero del Tablero</button>
+        </div>
+        <div class="v">
+            <p>El numero de columnas es @numColumna</p>
+            <p>El numero de filas es @numFila</p>
+        </div>
+    </div>
+
+    <div class="k">
+        <table>
+            @for (int i = 0; i < numFila; i++)
+            {
+                <tr>
+                    @for (int x = 0; x < numColumna; x++)
+                    {
+                        <td>@x |</td>
+                    }
+                </tr>
+            }
+        </table>
+    </div>
+</div>
