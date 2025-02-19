@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\obj\\Debug\\net8.0\\compressed\\q20uf7jbyf.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestorCuentas.styles.css",
+      "PackagePath": "staticwebassets\\GestorCuentas.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GestorCuentas.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GestorCuentas.props",
+      "PackagePath": "build\\GestorCuentas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GestorCuentas.props",
+      "PackagePath": "buildMultiTargeting\\GestorCuentas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GestorCuentas.props",
+      "PackagePath": "buildTransitive\\GestorCuentas.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

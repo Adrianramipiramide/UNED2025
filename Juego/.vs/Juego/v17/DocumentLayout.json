@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arami\\Desktop\\Juego\\",
+  "WorkspaceRootPath": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5C00E2A-0A34-4594-A409-4B0D1861DB19}|Juego\\Juego.csproj|c:\\users\\arami\\desktop\\juego\\juego\\pages\\jahorcado.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5C00E2A-0A34-4594-A409-4B0D1861DB19}|Juego\\Juego.csproj|c:\\users\\arami\\desktop\\uned2025\\juego\\juego\\pages\\jahorcado.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5C00E2A-0A34-4594-A409-4B0D1861DB19}|Juego\\Juego.csproj|solutionrelative:juego\\pages\\jahorcado.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5C00E2A-0A34-4594-A409-4B0D1861DB19}|Juego\\Juego.csproj|c:\\users\\arami\\desktop\\juego\\juego\\pages\\jahorcado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C5C00E2A-0A34-4594-A409-4B0D1861DB19}|Juego\\Juego.csproj|c:\\users\\arami\\desktop\\uned2025\\juego\\juego\\pages\\jahorcado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C5C00E2A-0A34-4594-A409-4B0D1861DB19}|Juego\\Juego.csproj|solutionrelative:juego\\pages\\jahorcado.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JAhorcado.razor.cs",
-              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Pages\\JAhorcado.razor.cs",
+              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Pages\\JAhorcado.razor.cs",
               "RelativeDocumentMoniker": "Juego\\Pages\\JAhorcado.razor.cs",
-              "ToolTip": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Pages\\JAhorcado.razor.cs",
+              "ToolTip": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Pages\\JAhorcado.razor.cs",
               "RelativeToolTip": "Juego\\Pages\\JAhorcado.razor.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAgwFoAAAAQAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T10:10:40.646Z",
               "EditorCaption": ""
@@ -37,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "JAhorcado.razor",
-              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Pages\\JAhorcado.razor",
+              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Pages\\JAhorcado.razor",
               "RelativeDocumentMoniker": "Juego\\Pages\\JAhorcado.razor",
-              "ToolTip": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Pages\\JAhorcado.razor",
+              "ToolTip": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Pages\\JAhorcado.razor",
               "RelativeToolTip": "Juego\\Pages\\JAhorcado.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T07:15:35.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T07:15:35.547Z"
             }
           ]
         }

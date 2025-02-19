@@ -1,0 +1,40 @@
+/* /Pages/Cuenta.razor.rz.scp.css */
+body[b-pyrsqeq8ci] {
+}
+
+.cont[b-pyrsqeq8ci]{
+    display:flex;
+    gap:5%;
+    flex-direction:column;
+
+}
+
+.j[b-pyrsqeq8ci]{
+    padding-top: 2%;
+}
+
+button[b-pyrsqeq8ci]{
+    background-color:transparent;
+    border-radius: 10px;
+    border-color:coral;
+}
+ 
+/* /Pages/Modificar.razor.rz.scp.css */
+body[b-ykk3yqync0] {
+}
+.cont[b-ykk3yqync0] {
+    display: flex;
+    gap: 5%;
+    flex-direction: column;
+}
+
+.j[b-ykk3yqync0] {
+    padding-top: 2%;
+}
+
+button[b-ykk3yqync0] {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: coral;
+}
+ 

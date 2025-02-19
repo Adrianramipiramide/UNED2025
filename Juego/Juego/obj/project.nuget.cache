@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M0NxexuXTlAuGs0VZWe5NxRrYcazH3CzPPBDOe+9x6Ye7KBA5YJccVeYXPtxj3uFNgHANNGEYnbHxsWfIoVJyA==",
+  "dgSpecHash": "ho92LiFi9hIvXXZD9XvD87UYUU5Q8Vg0rx/kAVUAn66Lm8iaPBjlqcK3N7uwpdb3yxq0+1MoHLbQuNuP1iAK3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Juego.csproj",
+  "projectFilePath": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Juego.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arami\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.5\\microsoft.aspnetcore.authorization.8.0.5.nupkg.sha512",
     "C:\\Users\\arami\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.5\\microsoft.aspnetcore.components.8.0.5.nupkg.sha512",

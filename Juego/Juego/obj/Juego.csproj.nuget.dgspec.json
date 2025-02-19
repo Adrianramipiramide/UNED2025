@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Juego.csproj": {}
+    "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Juego.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Juego.csproj": {
+    "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Juego.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Juego.csproj",
+        "projectUniqueName": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Juego.csproj",
         "projectName": "Juego",
-        "projectPath": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\Juego.csproj",
+        "projectPath": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\Juego.csproj",
         "packagesPath": "C:\\Users\\arami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arami\\Desktop\\Juego\\Juego\\obj\\",
+        "outputPath": "C:\\Users\\arami\\Desktop\\UNED2025\\Juego\\Juego\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arami\\AppData\\Roaming\\NuGet\\NuGet.Config",

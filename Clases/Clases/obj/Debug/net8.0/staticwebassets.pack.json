@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\Clases\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Clases.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Clases.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\Clases\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\Clases\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\Clases\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\Clases\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Clases.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Clases.props",
+      "PackagePath": "build\\Clases.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Clases.props",
+      "PackagePath": "buildMultiTargeting\\Clases.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Clases.props",
+      "PackagePath": "buildTransitive\\Clases.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

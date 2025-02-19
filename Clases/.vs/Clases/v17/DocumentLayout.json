@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|c:\\users\\arami\\desktop\\uned2025\\clases\\gestorcuentas\\pages\\modificar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|solutionrelative:gestorcuentas\\pages\\modificar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|c:\\users\\arami\\desktop\\uned2025\\clases\\gestorcuentas\\pages\\cuenta.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|solutionrelative:gestorcuentas\\pages\\cuenta.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|c:\\users\\arami\\desktop\\uned2025\\clases\\gestorcuentas\\pages\\cuenta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|solutionrelative:gestorcuentas\\pages\\cuenta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|c:\\users\\arami\\desktop\\uned2025\\clases\\gestorcuentas\\pages\\modificar.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}|GestorCuentas\\GestorCuentas.csproj|solutionrelative:gestorcuentas\\pages\\modificar.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modificar.razor.cs",
+              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Modificar.razor.cs",
+              "RelativeDocumentMoniker": "GestorCuentas\\Pages\\Modificar.razor.cs",
+              "ToolTip": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Modificar.razor.cs",
+              "RelativeToolTip": "GestorCuentas\\Pages\\Modificar.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T12:03:26.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Modificar.razor",
+              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Modificar.razor",
+              "RelativeDocumentMoniker": "GestorCuentas\\Pages\\Modificar.razor",
+              "ToolTip": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Modificar.razor",
+              "RelativeToolTip": "GestorCuentas\\Pages\\Modificar.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T10:53:12.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cuenta.razor.cs",
+              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Cuenta.razor.cs",
+              "RelativeDocumentMoniker": "GestorCuentas\\Pages\\Cuenta.razor.cs",
+              "ToolTip": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Cuenta.razor.cs",
+              "RelativeToolTip": "GestorCuentas\\Pages\\Cuenta.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T10:29:13.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cuenta.razor",
+              "DocumentMoniker": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Cuenta.razor",
+              "RelativeDocumentMoniker": "GestorCuentas\\Pages\\Cuenta.razor",
+              "ToolTip": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\Pages\\Cuenta.razor",
+              "RelativeToolTip": "GestorCuentas\\Pages\\Cuenta.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T10:29:10.31Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
