@@ -18,16 +18,19 @@
 <div class="j">
     <button @onclick= "() => modifyUsuario()">MODIFICAR</button>
 </div>
+<div>
+        <ul>
 
-    <ul>
+            @foreach (var item in listaCuentas)
+            {
+                <li>
+                    @item.nombre @item.apellido (@item.correo)
 
-        @foreach (var item in listaCuentas)
-        {
-            <li>
-                @item.nombre @item.apellido (@item.correo)
-               
-            </li>
-        }
+                </li>
+            }
 
-    </ul>
+        </ul>
+
+</div>
+
 </div> 

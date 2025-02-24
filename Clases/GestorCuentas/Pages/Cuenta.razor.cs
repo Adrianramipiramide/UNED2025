@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using GestorCuentas.Services;
+using Microsoft.AspNetCore.Components;
+using System.Text.Json;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace GestorCuentas.Pages
 {
-    public partial class Cuenta : ComponentBase
+    public partial class Cuenta () : ComponentBase
     {
-
+        [Inject] BrowserPersistence storage { get; set; }
         public string nombre { get; set; }
         public string apellido { get; set; }
         public string correo { get; set; }
@@ -12,12 +15,24 @@ namespace GestorCuentas.Pages
 
         public List<Usuario> listaCuentas = new List<Usuario>();
 
+        protected override async Task OnInitializedAsync()
+        {
+            string cuentasRAW = await storage.localStorage.GetValueAsync<string>("Cuentas");
+            listaCuentas = JsonSerializer.Deserialize<List<Usuario>>(cuentasRAW);
+            await base.OnInitializedAsync();
+        }
+
         // Método para registrar un nuevo usuario
         public void registrar()
         {
             Console.WriteLine("NUEVO USUARIO!!!");
             Usuario nuevoUsuario = new Usuario(nombre, apellido, correo, contraseña);
             listaCuentas.Add(nuevoUsuario);
+
+            // Guarda los datos
+            string datos = JsonSerializer.Serialize(listaCuentas);
+            storage.localStorage.SetValueAsync("Cuentas", datos);
+
             StateHasChanged();
 
         }
@@ -37,12 +52,12 @@ namespace GestorCuentas.Pages
 
         }
 
-        public partial class Usuario
+        public class Usuario
         {
-            public string contraseña = "------";
-            public string nombre = "----";
-            public string apellido = "--------";
-            public string correo = "a@gmail.com";
+            public string contraseña { get; set; } = "------";
+            public string nombre { get; set; } = "----";
+            public string apellido { get; set; } = "--------";
+            public string correo { get; set; } = "a@gmail.com";
 
             private List<Usuario> listaCuentas = new List<Usuario>();
 

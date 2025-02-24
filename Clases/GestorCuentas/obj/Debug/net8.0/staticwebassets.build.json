@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AhESdQ/pwHVf0rvIwJsJ1s4WVipwDjegGEoaQ6rtlXQ=",
+  "Hash": "8QyxPVkMlRWNX3kv6hbZ/MEtdK4J7C/I/yZ5AN58WO0=",
   "Source": "GestorCuentas",
   "BasePath": "/",
   "Mode": "Root",
@@ -7862,6 +7862,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\wwwroot\\js\\BrowserPersistence.js",
+      "SourceId": "GestorCuentas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/BrowserPersistence.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\BrowserPersistence.js"
     }
   ]
 }

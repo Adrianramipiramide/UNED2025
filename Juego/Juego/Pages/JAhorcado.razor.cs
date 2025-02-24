@@ -36,7 +36,6 @@ namespace Juego.Pages
             }
             else
             {
-
                 esta = "no esta";
                 fallos++;
             }

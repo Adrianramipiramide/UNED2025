@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\arami\\Desktop\\UNED2025\\Clases\\GestorCuentas\\wwwroot\\js\\BrowserPersistence.js",
+      "PackagePath": "staticwebassets\\js\\BrowserPersistence.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GestorCuentas.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
