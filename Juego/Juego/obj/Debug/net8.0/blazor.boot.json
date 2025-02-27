@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Juego",
   "resources": {
-    "hash": "sha256-0Mc1tWGnCpmZ7epsw0FfGrEqVXyJS2UmZZ1CasFvE18=",
+    "hash": "sha256-dwQkSRTqb9jo7rWRr3Ao7x/4VXdpqwCJw8cf0Gs3mLY=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.lv332rqs50.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "Juego.wasm": "sha256-DambzdEaQI5f6H1jlGDEGCmK1An7mU+qxQMXhHsDFfk="
+      "Juego.wasm": "sha256-uMGM7FSulYwKNP0W0BBZroyeZE0HMeoJwcWj6QY/khI="
     },
     "pdb": {
-      "Juego.pdb": "sha256-kX2lnclVrWILXwYLcuWBVVt2e0JJDAkjbFPJ5D+T7hw="
+      "Juego.pdb": "sha256-kI2R32R8/EzJcLiHiwuGSx3IPd8NLkaodTaRhiO6FbE="
     }
   },
   "cacheBootResources": true,

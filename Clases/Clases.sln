@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clases", "Clases\Clases.csproj", "{AE2B60CB-CF0C-481E-9AFA-CF43C3754D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorCuentas", "GestorCuentas\GestorCuentas.csproj", "{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorCuentas", "GestorCuentas\GestorCuentas.csproj", "{76D353AF-D4A4-4AD9-B9FB-6753EF8B7A5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

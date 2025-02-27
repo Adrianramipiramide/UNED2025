@@ -21,11 +21,12 @@
 
     <ul>
 
-        @foreach (var item in listaCuentas)
+        @foreach (var item in cuentas.listaCuentas)
         {
             <li>
                 @item.nombre @item.apellido (@item.correo)
                 <a href="/Test/@item.correo">Modificar Usuario</a>
+                <a href="/InicioSesion/@item.correo/"> Iniciar sesion</a>
                 <button @onclick="() => eliminarUsuario(item)">ELIMINAR</button>
             </li>
         }

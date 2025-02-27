@@ -1,0 +1,23 @@
+﻿<h3>InicioSesion</h3>   
+
+@page "/InicioSesion/{correo}/"
+
+<h3>Iniciar Sesión</h3>
+
+@if (!string.IsNullOrEmpty(correo))
+{
+    <p>Correo: @correo</p>
+
+    <!-- Campos de inicio de sesion -->
+  
+    <p> contraseña:</p>
+    <input type="password" @bind="Contraseña" />
+
+    <button @onclick="() => IniciarSesion()">Guardar cambios</button>
+
+}
+else
+{
+    <p>Correo no válido.</p>
+}
+

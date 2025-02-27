@@ -7,9 +7,10 @@ namespace GestorCuentas.Pages;
 
 public partial class Modificar : ComponentBase
 {
-    [Inject] private BrowserPersistence storage { get; set; }
     
     [Inject] private NavigationManager Navigation { get; set; }
+
+    [Inject] private GestorDeCuentas cuentas { get; set; }
 
     [Parameter] public string Correo { get; set; }
 
@@ -21,17 +22,7 @@ public partial class Modificar : ComponentBase
 
     protected override async Task OnInitializedAsync()
     {
-        await UsuarioSeleccionado.cargarDatos(storage);
-
-     
-            UsuarioSeleccionado = UsuarioSeleccionado.listaCuentas.Find(u => u.correo == Correo);
-            if (UsuarioSeleccionado != null)
-            {
-                Nombre = UsuarioSeleccionado.nombre;
-                Apellido = UsuarioSeleccionado.apellido;
-                Contraseña = UsuarioSeleccionado.contraseña;
-            }
-        
+        UsuarioSeleccionado = await cuentas.GetUser(Correo);
         await base.OnInitializedAsync();
     }
 
@@ -41,11 +32,10 @@ public partial class Modificar : ComponentBase
         if (UsuarioSeleccionado != null)
         {
 
-     
-            await UsuarioSeleccionado.cargarDatos(storage);
-            UsuarioSeleccionado.modifyUsuario(UsuarioSeleccionado, Nombre, Apellido, Contraseña, UsuarioSeleccionado.correo);
-            UsuarioSeleccionado.guardarDatos(storage);
-
+            UsuarioSeleccionado.nombre = Nombre;
+            UsuarioSeleccionado.apellido = Apellido;
+            UsuarioSeleccionado.contraseña = Contraseña;
+            await cuentas.Modificar(UsuarioSeleccionado);
 
             Navigation.NavigateTo("/");
         }

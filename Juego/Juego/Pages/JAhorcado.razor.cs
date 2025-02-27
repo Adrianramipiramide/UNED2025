@@ -39,7 +39,7 @@ namespace Juego.Pages
                 esta = "no esta";
                 fallos++;
             }
-
+                
          //   mostrarLetras();
             imprimirPalabra();
         }
