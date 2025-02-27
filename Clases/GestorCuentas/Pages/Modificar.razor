@@ -1,36 +1,27 @@
 ﻿<h3>Modificar</h3>
 
-@page "/Test"
+@page "/Test/{Correo}"
 
-<div>
-<div>
-    <p>Nombre</p>
-    <input type="text" placeholder="name" @bind="name" />
-    <p>E-mail</p>
-    <input type="text" placeholder="a@gmail.com" @bind="email"/>
-</div>
-<div>
-    <p>Apellido</p>
-    <input type="text" placeholder="apellido" @bind="apellido" />
-    <p>Contraseña</p>
-    <input type="password" placeholder="*****" @bind="contraseña" />
-</div>
-<div class="j">
-    <button @onclick= "() => modifyUsuario()">MODIFICAR</button>
-</div>
-<div>
-        <ul>
 
-            @foreach (var item in listaCuentas)
-            {
-                <li>
-                    @item.nombre @item.apellido (@item.correo)
+<h3>Modificar Cuenta</h3>
 
-                </li>
-            }
+@if (!string.IsNullOrEmpty(Correo))
+{
+    <p>Correo: @Correo</p>
 
-        </ul>
+    <!-- Campos de modificación -->
+    <p>Modificar nombre:</p>
+    <input type="text" @bind="Nombre" />
 
-</div>
+    <p>Modificar apellido:</p>
+    <input type="text" @bind="Apellido" />
 
-</div> 
+    <p>Modificar contraseña:</p>
+    <input type="password" @bind="Contraseña" />
+
+    <button @onclick="GuardarCambios">Guardar cambios</button>
+}
+else
+{
+    <p>Correo no válido.</p>
+}

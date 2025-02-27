@@ -1,34 +1,53 @@
-﻿using GestorCuentas.Services;
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
+using GestorCuentas.Services;
 using System.Text.Json;
-using static GestorCuentas.Pages.Cuenta;
+using Clases.Components.Pages;
 
-namespace GestorCuentas.Pages
+namespace GestorCuentas.Pages;
+
+public partial class Modificar : ComponentBase
 {
-    public partial class Modificar
+    [Inject] private BrowserPersistence storage { get; set; }
+    
+    [Inject] private NavigationManager Navigation { get; set; }
+
+    [Parameter] public string Correo { get; set; }
+
+    public string Nombre { get; set; }
+    public string Apellido { get; set; }
+    public string Contraseña { get; set; }
+
+    private Usuario UsuarioSeleccionado { get; set; } = new("", "", "", "");
+
+    protected override async Task OnInitializedAsync()
     {
-        [Inject] BrowserPersistence storage { get; set; }
-        public List<Usuario> listaCuentas = new List<Usuario>();
+        await UsuarioSeleccionado.cargarDatos(storage);
 
-        public static string name;
-        public static string contraseña ;
-        public static string apellido;
-        public static string email;
+     
+            UsuarioSeleccionado = UsuarioSeleccionado.listaCuentas.Find(u => u.correo == Correo);
+            if (UsuarioSeleccionado != null)
+            {
+                Nombre = UsuarioSeleccionado.nombre;
+                Apellido = UsuarioSeleccionado.apellido;
+                Contraseña = UsuarioSeleccionado.contraseña;
+            }
+        
+        await base.OnInitializedAsync();
+    }
 
-        Usuario usuario = new Usuario(name,apellido,email,contraseña);
-        public void modifyUsuario()
+    // Método para guardar los cambios
+    public async Task GuardarCambios()
+    {
+        if (UsuarioSeleccionado != null)
         {
-            usuario.setNombre(name);
-            usuario.setApellido(apellido);
-            usuario.setEmail(email);
-            usuario.setPassword(contraseña);
-        }
 
-        protected override async Task OnInitializedAsync()
-        {
-            string cuentasRAW = await storage.localStorage.GetValueAsync<string>("Cuentas");
-            listaCuentas = JsonSerializer.Deserialize<List<Usuario>>(cuentasRAW);
-            await base.OnInitializedAsync();
+     
+            await UsuarioSeleccionado.cargarDatos(storage);
+            UsuarioSeleccionado.modifyUsuario(UsuarioSeleccionado, Nombre, Apellido, Contraseña, UsuarioSeleccionado.correo);
+            UsuarioSeleccionado.guardarDatos(storage);
+
+
+            Navigation.NavigateTo("/");
         }
     }
 }

@@ -1,19 +1,19 @@
-﻿<h3>Cuenta</h3>
+﻿﻿<h3>Cuenta</h3>
 
-@page "/" 
+@page "/Cuenta"
 
 <div class="cont">
-    <div >
+    <div>
         <p>Nombre</p>
-        <input type="text" placeholder="name"  @bind="nombre"/>
+        <input type="text" placeholder="name" @bind="nombre"  />
         <p>E-mail</p>
-        <input type="text" @bind="correo"/>
+        <input type="text"  @bind="correo" />
     </div>
     <div>
         <p>Apellido</p>
-        <input type="text" placeholder="apellido" @bind="apellido"/>
+        <input type="text" placeholder="apellido" @bind="apellido" />
         <p>Contraseña</p>
-        <input type="password" placeholder="*****" @bind="contraseña"/>
+        <input type="password" placeholder="*****" @bind="contraseña" />
     </div>
     <div class="j">
         <button @onclick="registrar">REGISTRARSE</button>
@@ -21,11 +21,14 @@
 
     <ul>
 
-        @foreach (var item in listaCuentas) {
+        @foreach (var item in listaCuentas)
+        {
             <li>
                 @item.nombre @item.apellido (@item.correo)
+                <a href="/Test/@item.correo">Modificar Usuario</a>
                 <button @onclick="() => eliminarUsuario(item)">ELIMINAR</button>
             </li>
         }
+
     </ul>
 </div>

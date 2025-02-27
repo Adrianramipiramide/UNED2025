@@ -1,130 +1,65 @@
-﻿using GestorCuentas.Services;
+﻿using Clases.Components.Pages;
+using GestorCuentas.Services;
 using Microsoft.AspNetCore.Components;
-using System.Text.Json;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace GestorCuentas.Pages
 {
-    public partial class Cuenta () : ComponentBase
+    public partial class Cuenta
     {
-        [Inject] BrowserPersistence storage { get; set; }
+        [Inject] private BrowserPersistence storage { get; set; }
         public string nombre { get; set; }
         public string apellido { get; set; }
         public string correo { get; set; }
         public string contraseña { get; set; }
 
-        public List<Usuario> listaCuentas = new List<Usuario>();
+        
+
+        private List<Usuario> listaCuentas = new List<Usuario>();
 
         protected override async Task OnInitializedAsync()
         {
-            string cuentasRAW = await storage.localStorage.GetValueAsync<string>("Cuentas");
-            listaCuentas = JsonSerializer.Deserialize<List<Usuario>>(cuentasRAW);
+            var instancia = new Usuario("", "", "", "");
+            await instancia.cargarDatos(storage);
+            listaCuentas = instancia.listaCuentas;
+
             await base.OnInitializedAsync();
         }
 
         // Método para registrar un nuevo usuario
-        public void registrar()
+        public async Task registrar()
         {
-            Console.WriteLine("NUEVO USUARIO!!!");
+            Console.WriteLine($"NUEVO USUARIO!!! {nombre}");
+
+            // Crea el nuevo usuario
             Usuario nuevoUsuario = new Usuario(nombre, apellido, correo, contraseña);
-            listaCuentas.Add(nuevoUsuario);
+            await nuevoUsuario.cargarDatos(storage);
 
-            // Guarda los datos
-            string datos = JsonSerializer.Serialize(listaCuentas);
-            storage.localStorage.SetValueAsync("Cuentas", datos);
+            // Registra el usuario
+            nuevoUsuario.registrar(nuevoUsuario);
+            await nuevoUsuario.guardarDatos(storage);
 
+            // Carga la lista nueva
+            listaCuentas = nuevoUsuario.listaCuentas;
             StateHasChanged();
-
         }
 
-        public void eliminarUsuario(Usuario user)
+        public async Task eliminarUsuario(Usuario user)
         {
-            listaCuentas.Remove(user);
+            // Carga los datos de la lista
+            await user.cargarDatos(storage);
+            listaCuentas = user.listaCuentas;
 
+            // Eliminar y guarda los cambios
+            listaCuentas.Remove(user.listaCuentas.Find(u => u.correo == user.correo));
+            user.listaCuentas = listaCuentas;
+            await user.guardarDatos(storage);
+
+            // Carga la lista nueva
+            listaCuentas = user.listaCuentas;
+            StateHasChanged();
         }
 
-        public void modifyUsuario(Usuario user, string name, string lastName, string password, string email)
-        {
-            user.setNombre(name);
-            user.setApellido(lastName);
-            user.setEmail(email);
-            user.setPassword(password);
-
-        }
-
-        public class Usuario
-        {
-            public string contraseña { get; set; } = "------";
-            public string nombre { get; set; } = "----";
-            public string apellido { get; set; } = "--------";
-            public string correo { get; set; } = "a@gmail.com";
-
-            private List<Usuario> listaCuentas = new List<Usuario>();
 
 
-            public Usuario(string nombre, string apellido, string correo, string contraseña)
-            {
-                this.nombre = nombre;
-                this.apellido = apellido;
-                this.correo = correo;
-                this.contraseña = contraseña;
-            }
-
-            //getter y setters
-            public string getNombre()
-            {
-                return nombre;
-            }
-
-            public string getApellido()
-            {
-                return apellido;
-            }
-
-            public void setNombre(string nombre)
-            {
-                this.nombre = nombre;
-            }
-
-            public void setApellido(string apellido)
-            {
-                this.apellido = apellido;
-            }
-
-            public void setEmail(string email)
-            {
-                this.correo = email;
-            }
-
-            public void setPassword(string password)
-            {
-                this.contraseña = password;
-            }
-            //Funciones
-            public List<Usuario> registrar(Usuario user)
-            {
-                listaCuentas.Add(user);
-                return listaCuentas;
-            }
-
-            public Usuario modifyUsuario(Usuario user, string name, string lastName, string password, string email)
-            {
-                user.setNombre(name);
-                user.setApellido(lastName);
-                user.setEmail(email);
-                user.setPassword(password);
-
-                return user;
-            }
-
-            public List<Usuario> eliminarUsuario(Usuario user)
-            {
-                listaCuentas.Remove(user);
-                return listaCuentas;
-            }
-
-            Cuenta cuentas = new Cuenta();
-
-        }
     }
 }
