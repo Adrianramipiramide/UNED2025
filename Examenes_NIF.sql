@@ -89,3 +89,30 @@ FROM examenes_inap_pro.EXAMENES_NIF
 WHERE EXTRACT(MONTH FROM diahora) = 2
   AND EXTRACT(DAY FROM diahora) = 14
 GROUP BY codtribunal, ID_EXAMEN, ID_MODELO;
+
+
+
+
+
+SELECT 
+    p.codtribunal,
+    COUNT(p.nif) AS Presentados,
+    a.Aspirantes,
+    a.Aspirantes - COUNT(p.nif) AS Diferencia
+FROM 
+    examenes_inap_pro.PRESENCIA p
+JOIN 
+    (SELECT codtribunal, COUNT(nif) AS Aspirantes
+     FROM examenes_inap_pro.examenes_nif
+     WHERE EXTRACT(MONTH FROM diahora) = 2
+       AND EXTRACT(DAY FROM diahora) = 14
+     GROUP BY codtribunal) a
+ON p.codtribunal = a.codtribunal
+WHERE 
+    EXTRACT(MONTH FROM p.diahora) = 2
+    AND EXTRACT(DAY FROM p.diahora) = 14
+GROUP BY 
+    p.codtribunal, a.Aspirantes;
+
+
+  
