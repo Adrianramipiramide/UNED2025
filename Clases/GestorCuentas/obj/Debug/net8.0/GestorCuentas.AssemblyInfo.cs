@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestorCuentas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9350d167668b4f3be68ecd92a00e69d53c6f86f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd5b86198f63f6cc79ef672539a61d2b79334ec4")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestorCuentas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestorCuentas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

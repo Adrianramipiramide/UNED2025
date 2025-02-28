@@ -14,6 +14,13 @@ namespace GestorCuentas.Pages
         [Parameter] public string correo { get; set; }
         [Parameter] public string Contraseña { get; set; }
 
+        public Usuario? UsuarioSesion = null;
+
+        protected override async Task OnInitializedAsync()
+        {
+            await sesion.CerrarSesion();
+            await base.OnInitializedAsync();
+        }
 
         public async Task<Boolean> IniciarSesion()
         {
@@ -32,9 +39,11 @@ namespace GestorCuentas.Pages
                 return false;
             }
 
+            string inicioSesion = " está iniciando sesion";
+
             await sesion.IniciarSesión(foundUser);
-
-
+            UsuarioSesion = await sesion.getLoggedUser();
+            
             return true;
 
         }

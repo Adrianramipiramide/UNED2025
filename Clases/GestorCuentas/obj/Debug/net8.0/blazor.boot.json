@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "GestorCuentas",
   "resources": {
-    "hash": "sha256-LqIGSuCjASM1N6EO7uJp4bP6XLhBRosZQ04XQR8j60o=",
+    "hash": "sha256-kqbiRAEgIyJP2gtP4SoKkuFVc+6vjkrNT9mVxWl49Nc=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.lv332rqs50.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "GestorCuentas.wasm": "sha256-l7TYNxm93NK0CuHY35CeDCk7RlB27CjS6eMVrd1oqhw="
+      "GestorCuentas.wasm": "sha256-kLRLMzCGXPebUO8Yn6ZRZGf8ogLANg7fa+NNoBgY4Q8="
     },
     "pdb": {
-      "GestorCuentas.pdb": "sha256-q3p/uW8MIYMaHg8w91YsrnT1TIbxUd9Zcl558KFzX3g="
+      "GestorCuentas.pdb": "sha256-A0ONrcN5b9lf0ImiSWlLlu5f19K88BqLyPj5RJH8vu8="
     }
   },
   "cacheBootResources": true,

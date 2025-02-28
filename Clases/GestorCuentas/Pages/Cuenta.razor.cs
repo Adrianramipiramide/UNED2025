@@ -6,13 +6,6 @@ namespace GestorCuentas.Pages
 {
     public partial class Cuenta
     {
-
-
-
-
-
-
-        //POner cartel con el usuario que inicia sesion
         [Inject] private GestorDeCuentas cuentas { get; set; }
 
         public string nombre { get; set; }

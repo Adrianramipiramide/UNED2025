@@ -15,9 +15,16 @@
 
     <button @onclick="() => IniciarSesion()">Guardar cambios</button>
 
+    
+
+    @if(UsuarioSesion != null)
+    {  
+          <p>@UsuarioSesion.nombre ha iniciado sesión</p>
+    }
 }
-else
+else  
 {
     <p>Correo no válido.</p>
 }
 
+ 
